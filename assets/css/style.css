@@ -1,0 +1,59 @@
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.header{
+    width: 100%;
+    height: 300px;
+    text-align: right;
+    color: #ffffff;
+  text-shadow: 0.125em 0.25em 0.125em #707070;
+  background-image: url("../img/header-pic2.jpg");
+  background-size: cover;
+  text-align: right;
+ 
+}
+.navbar{
+    position: fixed;
+}
+.natalia{
+    font-family: 'Dancing Script', cursive;
+
+}
+
+.citainicio{
+    font-family: 'Permanent Marker', cursive;
+}
+.foto-experiencia{
+    width: 100%;
+    max-width: 70%;
+    float: right;
+   
+     
+}
+
+.foto-experiencia2{
+    width: 100%;
+    max-width: 70%;
+    float: left;
+}
+
+.foto-naty{
+    width: 100%;
+    max-width: 70%;
+}
+.textcard{
+    display: none;
+}
+.btn{
+    float: inline-end;
+
+}
+
+.contacto{
+    background-color: pink;
+}
+
+.card-tittle{
+    font-weight: bolder;
+}
