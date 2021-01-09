@@ -15,15 +15,7 @@
          $("#nameForm").val('');
          $("#emailForm").val('');
       }
-        
-
-  
-        
-       
-    
-    
- 
-
-
-
+      $("#linkModal").click(function(){
+         $("#modalGaleria").modal({backdrop: true});
+             });
       

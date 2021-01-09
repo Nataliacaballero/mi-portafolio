@@ -21,7 +21,7 @@
 
 <body>
   <!--INICIO NAV-->
-  <nav class=" container-fluid navbar navbar-expand-lg navbar-dark bg-danger ">
+  <nav class=" container-fluid navbar navbar-expand-lg navbar-light ">
     
     <div class="container ">
       <a class="navbar-brand natalia" href="#">Natalia Caballero Díaz</a>
@@ -49,6 +49,9 @@
     </div>
   </nav>
   <!--CIERRE NAV-->
+  <!--prueba nav-->
+  
+  <!--prueba nav-->
 
   <header class="header">
 
@@ -152,15 +155,20 @@
 
   <section id="miexperiencia" class="container ">
     <h2 class="text-center my-5 mb-5">Mi experiencia</h2>
-    <h5> - Intervenciones Asistidas con Animales - <span class="fst-italic" data-bs-toggle="tooltip" data-bs-placement="top" title="conoce imágenes">
-      ir a galeria</span> </h5>
-      <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable d-none">
-        <h3>PRUEBA VENTANA MODAL</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio explicabo accusamus est non quas magnam atque rem molestias aliquam quasi assumenda hic ab ipsum maxime provident, cupiditate fugiat soluta laudantium!Lorem</p>
-  <section class="container sectioncarrusel my-5  d-none d-sm-none d-md-block d-lg-block">
-    <img class="img-fluid " src="assets/img/slide2.jpg" alt="">
-      </div>
+    <h5> - Intervenciones Asistidas con Animales - </h5>
+    <em><a id="linkModal" onclick="document.getElementById('modalGaleria').style.display='block';" data-toggle="modal" data-target="#modalGaleria" class="fst-italic" data-bs-toggle="tooltip" data-bs-placement="top" title="conoce imágenes" href="#" class="fst-italic">Ir a galería</a></em>
 
+    <!--inicio ventana modal-->
+   
+    <section class="container sectioncarrusel my-5  d-none d-sm-none d-md-block d-lg-block">
+      
+      <div id="modalGaleria" class="modal-dialog modal-dialog-centered ">
+        <h3>PRUEBA VENTANA MODAL</h3>
+        <img class="img-fluid " src="assets/img/slide2.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio explicabo accusamus est non quas magnam atque rem molestias aliquam quasi assumenda hic ab ipsum maxime provident, cupiditate fugiat soluta laudantium!Lorem</p>
+      </div>  
+      
+<!--cierre ventana modal-->
     <div class="row">
       <!--inicio col 1 Mi experiencia-->
       <div class="text col-12 col-sm-12 col-md-8 col-lg-8 ">
@@ -472,7 +480,7 @@
     
   </section>
 
-  <footer class="  container-fuid  py-5 text-center bg-danger text-white">
+  <footer class="  container-fuid  py-5 text-center bg-danger ">
 
     <h2 class="natalia">Natalia Caballero Díaz</h2>
     <i class="fab fa-instagram"></i>
