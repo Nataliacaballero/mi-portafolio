@@ -15,6 +15,7 @@ body{
 }
 .navbar{
     position: fixed;
+    z-index: 1;
 }
 .natalia{
     font-family: 'Dancing Script', cursive;
