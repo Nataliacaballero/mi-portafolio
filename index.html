@@ -11,6 +11,7 @@
   <!--google font-->
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link
+  
     href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Josefin+Sans:wght@300;400;700&family=Permanent+Marker&display=swap"
     rel="stylesheet">
   <!--Google awesome-->
@@ -21,6 +22,35 @@
 
 <body>
   <!--INICIO NAV-->
+  
+    <nav class=" container-fluid navbar navbar-expand-lg navbar-light ">
+    
+      <div class="container ">
+        <a class="navbar-brand natalia" href="#">Natalia Caballero Díaz</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#sobremi">Sobre mi <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#miexperiencia">Mi experiencia <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#mistrabajos">Mis trabajos <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="#contacto">Contacto <span class="sr-only">(current)</span></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
   <nav class=" container-fluid navbar navbar-expand-lg navbar-light ">
     
     <div class="container ">
@@ -234,10 +264,10 @@
         <!--inicio carrusel-->
         <div class="container sectioncarrusel my-5 ">
 
-          <div id="carouselExampleIndicators" class="carousel slide " data-ride="carousel">
+          <div id="carouselExampleIndicators2" class="carousel slide " data-ride="carousel">
             <ol class="carousel-indicators">
-              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active circulo"></li>
-              <li data-target="#carouselExampleIndicators" data-slide-to="1" class="circulo"></li>
+              <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active circulo"></li>
+              <li data-target="#carouselExampleIndicators2" data-slide-to="1" class="circulo"></li>
 
             </ol>
             <div class="carousel-inner">
@@ -282,11 +312,11 @@
               
             </div>
             
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="sr-only">Previous</span>
             </a>
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="sr-only">Next</span>
             </a>
@@ -355,7 +385,7 @@
     <div class="row">
               <div class="col-md-6 py-3">
                 <img src="https://images.pexels.com/photos/305821/pexels-photo-305821.jpeg?
-                auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="cactus1" class="img-fluid">
+                auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="cactus1" class="img-fluid">  
               </div>
               <div class="col-md-6 py-3">
                 <img src="https://images.pexels.com/photos/305821/pexels-photo-305821.jpeg?
@@ -476,7 +506,7 @@
         <h5 class="card-title ">Adiestramiento</h5>
         <p> Adiestramiento a domicilio, mejora la relación con tu mascota</p>
         <button onclick="document.getElementById('text1').style.display='block';" type="button"
-          class="btn btn-danger boton1">Ver más</button>
+          class="btn btn-danger botoncard  boton1">Ver más</button>
         <div id="text1" class="textcard">
           <p class="card-text4">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac
             eleifend risus, urna auctor inceptos mattis dapibus. </p>
@@ -492,8 +522,8 @@
       <div class="card-body">
         <h5 class="card-title">I.A.A</h5>
         <p> Animales al servicio de la salud y rehabilitación humana</p>
-        <button onclick="document.getElementById('text2').style.display='block';" type="button"
-          class="btn btn-danger boton2">Ver más</button>
+            <button onclick="document.getElementById('text2').style.display='block';" type="button"
+          class="btn btn-danger botoncard boton2">Ver más</button>
         <div id="text2" class="textcard">
           <p class="card-text2">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac
             eleifend risus, urna auctor inceptos mattis dapibus. </p>
@@ -510,7 +540,7 @@
         <h5 class="card-title">Capacitaciones</h5>
         <p> Talleres, cursos y seminarios de adiestramiento e I.A.A</p>
         <button onclick="document.getElementById('text6').style.display='block';" type="button"
-          class="btn btn-danger boton6">Ver más</button>
+          class="btn btn-danger botoncard boton6">Ver más</button>
         <div id="text6" class="textcard">
           <p class="card-text6">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac
             eleifend risus, urna auctor inceptos mattis dapibus. </p>
@@ -528,10 +558,10 @@
     <div class="card h-100" style="width: 18rem;">
       <img class="card-img-top" src="assets/img/diseno-web.jpg" alt="Card image cap">
       <div class="card-body">
-        <h5 class="card-title4">Diseño Web</h5>
+        <h5 class="card-title">Diseño Web</h5>
         <p> Diseño para que tu proyecto y tus ideas se vean mucho mejor</p>
         <button onclick="document.getElementById('text4').style.display='block';" type="button"
-          class="btn btn-danger boton4">Ver más</button>
+          class="btn btn-danger botoncard boton4">Ver más</button>
         <div id="text4" class="textcard">
           <p class="card-text4">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac
             eleifend risus, urna auctor inceptos mattis dapibus. </p>
@@ -545,10 +575,10 @@
     <div class="card h-100" style="width: 18rem;">
       <img class="card-img-top" src="assets/img/ux-ui.png" alt="Card image cap">
       <div class="card-body">
-        <h5 class="card-title5">Diseño UX UI</h5>
+        <h5 class="card-title">Diseño UX UI</h5>
         <p> Mejora la experiencia de tu servicio para que tus clientes te prefieran siempre</p>
         <button onclick="document.getElementById('text5').style.display='block';" type="button"
-          class="btn btn-danger boton5">Ver más</button>
+          class="btn btn-danger botoncard boton5">Ver más</button>
         <div id="text5" class="textcard">
           <p class="card-text5">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac
             eleifend risus, urna auctor inceptos mattis dapibus. </p>
@@ -562,10 +592,10 @@
     <div class="card h-100" style="width: 18rem;">
       <img class="card-img-top" src="assets/img/experiencia.jpg" alt="Card image cap">
       <div class="card-body">
-        <h5 class="card-title6">Consultorias</h5>
+        <h5 class="card-title">Consultorias</h5>
         <p> Asesoría en la implementación y mejora de tu proyecto</p>
         <button onclick="document.getElementById('text6').style.display='block';" type="button"
-          class="btn btn-danger boton6">Ver más</button>
+          class="btn btn-danger botoncard boton6">Ver más</button>
         <div id="text6" class="textcard">
           <p class="card-text6">Cubilia elementum posuere arcu rhoncus egestas lectus, diam aliquam laoreet ac
             eleifend risus, urna auctor inceptos mattis dapibus. </p>
