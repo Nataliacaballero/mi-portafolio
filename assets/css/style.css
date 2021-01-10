@@ -61,7 +61,9 @@ html {
 }
 
 .contacto{
-    background-color: pink;
+    background:#a8edea ;
+    
+    margin: 0;
 }
 
 .card-tittle{
@@ -69,7 +71,7 @@ html {
 }
 
 footer{
-    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+    background-image: linear-gradient(to bottom, #a8edea 0%, #fed6e3 100%);
     color: black;
 }
 
@@ -113,4 +115,3 @@ footer{
       background: darkcyan;
   }
 
-  

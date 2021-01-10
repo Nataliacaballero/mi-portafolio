@@ -150,9 +150,29 @@
     <h2  class="container-fluid titulo-section text-center text-white py-2">Mi experiencia</h2>
     <div class="container"> 
     <h5> - Intervenciones Asistidas con Animales - </h5>
-    <em><a href="#modalGaleria" data-bs-toggle="tooltip" data-bs-placement="top" title="conoce imágenes" class="fst-italic" role="button">Ir a galería</a></em>
-
-    <!--inicio ventana modal-->
+    <em><a href="#modalGaleria"  data-bs-toggle="tooltip" data-bs-placement="top" title="conoce imágenes" class="fst-italic " role="button" data-toggle="modal" data-target="#modalGaleria">Ir a galería</a></em>
+    <!-- Modal -->
+    <div class="modal fade" id="modalGaleria" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">PRUEBA VENTANA MODAL</h4>
+          </div>
+          <div class="modal-body">
+            <img class="img-fluid " src="assets/img/amigos.jpg" alt="">
+            <img class="img-fluid " src="assets/img/amigos.jpg" alt="">
+            <img class="img-fluid " src="assets/img/amigos.jpg" alt="">
+            <img class="img-fluid " src="assets/img/amigos.jpg" alt="">
+            <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. At facilis atque quas libero ipsam ullam esse accusantium, eum id eaque aspernatur maxime consequatur deleniti laboriosam, laudantium voluptatum alias accusamus excepturi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio suscipit similique quia placeat explicabo ducimus repellendus tenetur totam porro autem? Veniam incidunt tempora delectus magni molestias nam vel quam quaerat? Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio explicabo accusamus est non quas magnam atque rem molestias aliquam quasi assumenda hic ab ipsum maxime provident, cupiditate fugiat soluta laudantium!Lorem</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--inicio ventana modal
     <div id="modalGaleria" class="modalGaleria">
       <div class="modalContenido">  
           <a href="#miexperiencia">X</a>
@@ -161,7 +181,7 @@
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio explicabo accusamus est non quas magnam atque rem molestias aliquam quasi assumenda hic ab ipsum maxime provident, cupiditate fugiat soluta laudantium!Lorem</p>
       </div>  
     </div>
-    <!--cierre ventana modal-->
+    cierre ventana modal-->
   </section>
    
   <section class="container sectioncarrusel my-5 ">
@@ -466,10 +486,12 @@
     
 
   <!--INICIO SECTION-->
-  <section id="contacto" class="contacto mt-3 py-3">
-      <div class="container-fluid">
+  <section id="contacto" >
+    <h2 class="container-fluid titulo-section text-center text-white py-2 my-0" >Contacto</h2>
+      <div class="contacto container-fluid py-3 ">
+        
    
-      <h5 class="text-white text-center">Recibe información</h5>
+      <h5 class=" text-center">Recibe información</h5>
       <div class="form-group">
         <input type="email" class="form-control" id="nameForm" placeholder="Nombre">
       </div>
@@ -515,6 +537,8 @@
   <!--Mi script-->
   <script src="assets/js/script.js"></script>
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <!--ajax-->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 </body>
 
 </html>
