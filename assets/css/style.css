@@ -13,12 +13,15 @@ html {
   background-image: url("../img/header-pic2.jpg");
   background-size: cover;
   text-align: right;
+  
+  
  
 }
 .navbar{
     position: fixed;
     z-index: 1;
    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);;
+   margin: 0;
    
 }
 .natalia{
@@ -28,6 +31,8 @@ html {
 
 .citainicio{
     font-family: 'Permanent Marker', cursive;
+    
+    
 }
 .foto-experiencia{
     width: 100%;
@@ -103,3 +108,9 @@ footer{
     opacity:1;
     pointer-events:auto;
   }
+  
+  .titulo-section{
+      background: darkcyan;
+  }
+
+  
