@@ -1,6 +1,12 @@
 body{
     font-family: 'Josefin Sans', sans-serif;
     margin-top: 0;
+  
+}
+body * {
+    margin: 0;
+    border: 0;
+    padding: 0;
 }
 html {
     scroll-behavior: smooth;
@@ -14,19 +20,23 @@ html {
   background-image: url("../img/header-pic2.jpg");
   background-size: cover;
   text-align: right;
-  
-  
-  
- 
+  }
+.header h2{
+    padding-top: 230px;
+    padding-right: 20px;
 }
+
 .navbar{
     position: fixed;
-    z-index: 1;
+    z-index: 20000;
    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);;
+   margin: 0;
   
 }
 .natalia{
     font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    font-size: 32px;
 
 }
 
@@ -60,6 +70,12 @@ html {
 .foto-naty{
     width: 100%;
     max-width: 70%;
+    border-radius: 50px;
+    border: 2px solid black;
+    margin-top: auto;
+    margin-bottom: auto;
+    vertical-align: middle;
+   
     
     
 }
@@ -68,17 +84,27 @@ html {
 }
 .btn{
     float: inline-end;
-
+    background: rgb(37, 140, 158);
+    margin-bottom: 0;
+    border: 2px solid black;
+  }
+.boton-modal{
+    background: rgb(211, 175, 193) !important;
+    color: white !important;
+    border: 2px solid white;
 }
-
 .contacto{
     background:#a8edea ;
     
     margin: 0;
 }
 
-.card-tittle{
-    font-weight: bolder;
+.card-title{
+    font-weight: 700;
+    text-decoration: underline;
+    color: rgb(37, 140, 158);
+    text-align: center;
+    
 }
 
 footer{
@@ -86,21 +112,30 @@ footer{
     color: black;
 }
 
-.modalContenido{
-    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+.modal-content{
+    
+ 
     width:100%;
     max-width: 70%;
     height: 100%;
     max-height: 70%;
-    padding: 10px 20px;
-    margin: 20% auto;
+    margin: 40% auto;
     position: relative;
-   
-    
-    
   }
+    
+   
+  
+.modal-header{
+    background: rgb(199, 137, 149) !important;
+}
+
+.modal-footer{
+    background: rgb(199, 137, 149) !important;
+}
+
   .modalGaleria{
     background-color: rgba(0,0,0,.8);
+    
     position:fixed;
     top:0;
     right:0;
@@ -109,7 +144,7 @@ footer{
     opacity:0;
     pointer-events:none;
     transition: all 1s;
-    z-index: 100000;
+    z-index: 2001;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,8 +165,59 @@ footer{
       background: darkcyan;
   }
 
+.experiencia{
+    text-align: left;
+    ;
+}
+
 .experiencia2{
     text-align: right;
-    margin-top: 100px;
-    font-weight: bold;
+    ;
+}
+
+.spantext{
+    font-weight: 700;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 100%;
+    max-height: 40%;
+}
+
+.card-body{
+    display: inline-block;
+    box-sizing:border-box;
+    max-height: fit-content;
+    overflow-y: auto;
+}
+
+#moreCard1 {
+    display: none;
+}
+
+#moreCard2{
+    display: none;
+}
+
+#moreCard3{
+    display: none;
+}
+
+#moreCard4{
+    display: none;
+}
+
+#moreCard5{
+    display: none;
+}
+
+#moreCard6{
+    display: none;
+}
+
+.contenido-section{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
