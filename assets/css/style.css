@@ -22,7 +22,7 @@ html {
   text-align: right;
   }
 .header h2{
-    padding-top: 200px;
+    padding-top: 230px;
     padding-right: 20px;
 }
 
@@ -89,8 +89,9 @@ html {
     border: 2px solid black;
   }
 .boton-modal{
-    background: cyan !important;
-    color: black !important;
+    background: rgb(211, 175, 193) !important;
+    color: white !important;
+    border: 2px solid white;
 }
 .contacto{
     background:#a8edea ;
